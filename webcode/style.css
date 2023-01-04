@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-fluid{
+    width:auto;
+}
+.searchBar {
+    width: 90%;
+    height: 100%;
+    border: 2px solid rgb(212, 210, 210);
+    font-size: 20px;
+    text-transform: capitalize;
+    border-right: none;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .searchBtn {
+    width: 60px;
+    height: 100%;
+    background-color: rgb(212, 210, 210);
+    border: 2px solid rgb(212, 210, 210);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+  }
+.img{
+    height: 30px;
+    width: 40px;
+    margin:10px ;
+    border-radius: 50%;
+}
+
+.links{
+    position:static;
+    width:auto;
+    text-decoration: none;
+    color: black;
+    font-weight:normal;
+    display: flex;
+    width: 170px;
+    align-items: center;
+    font-size: large;
+    text-transform: capitalize;
+ 
+}
+.side-bar a:hover{
+    background-color: beige;
+    font-weight: bold;
+}
+.filters{
+    position:absolute;
+    left: 230px;
+    top: 100px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    overflow-x: auto;
+}
+.video-container{
+    position:relative;
+    width: calc(100% - 250px);
+    margin-top: -530px;
+    margin-left: 250px;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(4,25%);
+    grid-gap: 20px 5px;
+    overflow-x: hidden;
+}
+
+.card{
+    width: 250px;
+    height:fit-content;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    overflow-y: hidden;
+   
+}
+
+.card-img-top{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+   
+}
+
+.card-body{
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.channelIcon{
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.channelInfo {
+    margin-left: 10px;
+  }
+  .card-body {
+    display: flex;
+  }
+
